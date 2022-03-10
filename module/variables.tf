@@ -5,12 +5,12 @@ variable "docker_img" {
 
 variable "port" {
     description = "Values of the external and internal ports"
-    type = list(object({
+    type = object({
         internal = number
         external = number
-    }))
-    default = [ {
+    })
+    default =  {
         internal = 80
         external = 8081
-    } ]
+    }
 }

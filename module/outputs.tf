@@ -10,5 +10,5 @@ output "image_id" {
 
 output "ip_adress" {
     description = "IP adress of the website"
-    value = join(":",["http://localhost", var.port[0].external])
+    value = join(":",["http://localhost", var.port.external])
 }

@@ -18,7 +18,7 @@ resource "docker_container" "simple_website_container" {
   image = docker_image.simple_website.latest
   name  = "website"
   ports {
-    internal = var.port[0].internal
-    external = var.port[0].external
+    internal = var.port.internal
+    external = var.port.external
   }
 }
