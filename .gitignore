@@ -1,5 +1,5 @@
-module/*.tfstate
-module/*.tfstate.*
-module/.terraform/*
-module/.terraform.*
+*/*.tfstate
+*/*.tfstate.*
+*/.terraform/*
+*/.terraform.*
 .vscode/
