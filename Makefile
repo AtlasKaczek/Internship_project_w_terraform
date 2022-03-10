@@ -18,7 +18,7 @@ release: build push
 
 tinit:
 	echo "Initializing terraform module..."
-	cd module; terraform Init
+	cd module; terraform init
 
 tplan:
 	echo "Planning execution of $(NAME)..."
