@@ -25,7 +25,7 @@ func TestTerraformWebsiteResponse(t *testing.T) {
 	docker.Build(t, "../", buildOptions)
 
 	tfOptions := &terraform.Options{
-		TerraformDir: "../",
+		TerraformDir: "../module/",
 		Vars: map[string]interface{}{
 			"docker_img": img_name,
 		},
