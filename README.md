@@ -8,10 +8,15 @@ This module was made as a recruitment task. The goal was to run a simple dockeri
 1. Run `terraform init`.
 1. Run `terraform apply`. Pass `-var=docker_img="atlaskaczek/internship_project_w_terraform:v1"` as a flag or input an image during it's execution.
 1. When you're done, run `terraform destroy`.
+
+You can also do all of the above by running `make init`, `make tapply NAME="atlaskaczek/internship_project_w_terraform:v1"`
+and then when you're done run `make tdestroy NAME="atlaskaczek/internship_project_w_terraform:v1`.
 ## Running automated tests against this module
 
 1. Install [Docker](https://docs.docker.com/get-docker/)
 1. Install [Terraform](https://www.terraform.io/)
 1. Install [Golang](https://golang.org/)
-1. `cd tests`
-1. `go test`
+1. Run `cd tests`
+1. Run `go test`
+
+Instead of last two points you can run `make ttest`.
