@@ -11,9 +11,13 @@ This module was made as a recruitment task. The goal was to run a simple dockeri
 1. When you're done, run `terraform destroy`.
 
 You can also do all of the above by running:
+
 `make tinit`
+
 `make tapply NAME="atlaskaczek/internship_project_w_terraform:v1"`
+
 Then when you're done run:
+
 `make tdestroy NAME="atlaskaczek/internship_project_w_terraform:v1`.
 ## Running automated tests against this module
 
