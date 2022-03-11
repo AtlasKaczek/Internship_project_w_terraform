@@ -7,8 +7,9 @@ This module was made as a recruitment task. The goal was to run a simple dockeri
 1. Run `cd module/`
 1. Run `terraform init`.
 1. Run `terraform apply -var=docker_img="atlaskaczek/internship_project_w_terraform:v1"`
-    as a flag or input an image during it's execution.
+   as a flag or input an image during it's execution.
 1. When you're done, run `terraform destroy`.
+
 You can also do all of the above by running:
 `make tinit`
 `make tapply NAME="atlaskaczek/internship_project_w_terraform:v1"`
