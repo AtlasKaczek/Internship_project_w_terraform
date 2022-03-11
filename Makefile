@@ -34,4 +34,4 @@ tdestroy:
 
 ttest:
 	echo "Testing terraform module..."
-	cd tests; go test
+	cd test; go test
